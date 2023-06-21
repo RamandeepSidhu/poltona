@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+#polotno-root {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .bp4-dark .polotno-side-tabs-container .polotno-side-panel-tab:hover,
+.bp4-dark .polotno-side-tabs-container .polotno-side-panel-tab.active {
+  background-color: #c8c52d;
+  color: white;
+}
+
+/* change hover style of all buttons */
+.bp4-dark .bp4-button:not([class*='bp4-intent-']):hover {
+  background-color: #c8c52d;
+}
+.bp4-overflow-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.go846226717.bp4-navbar {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 0 1px rgba(17, 20, 24, 0.1), 0 1px 1px rgba(17, 20, 24, 0.2);
+  box-shadow: 0 0 0 1px rgba(17, 20, 24, 0.1), 0 1px 1px rgba(17, 20, 24, 0.2);
+  padding: 9px 15px;
+  position: relative;
+  z-index: 10;
+}
+.bp4-dark .polotno-side-tabs-container .polotno-side-panel-tab:hover,
+.bp4-dark .polotno-side-tabs-container .polotno-side-panel-tab.active {
+  background-color: #c8c52d;
+  color: white;
+}
+
+/* change hover style of all buttons */
+.bp4-dark .bp4-button:not([class*='bp4-intent-']):hover {
+  background-color: #c8c52d;
+}
+button.bp4-button.bp4-disabled.bp4-minimal {
+    margin-left: 8px;
+    background: center;
+    border-radius: 5px;
+    height: 36px;
+    width: 9%;
+}
+button.bp4-button.bp4-minimal {
+    margin-left: 8px;
+    background: center;
+    border-radius: 5px;
+    height: 36px;
+    width: 8%;
+}
+button.bp4-button.bp4-minimal.bp4-active {
+    width: 42px;
+}
+button.bp4-button.bp4-minimal {
+    width: 63px;
+}                   
+.go1831645374.bp4-navbar-group.bp4-align-left {
+    position: relative;
+    top: 6px;
+}
+input.bp4-input {
+    /* width: 93%; */
+    height: 29px;
+    padding-left: 5px;
+    margin-left: 7px;
+    border-radius: 7px;
+}
+.bp4-input-group {
+    position: relative;
+    top: 22px;
+}
+.bp4-navbar-group.bp4-align-right {
+    position: relative;
+    top: 10px;
+}
