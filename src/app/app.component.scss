@@ -1,0 +1,13 @@
+#polotno-root {
+    height: 100vh;
+  }
+  .bp4-dark .polotno-side-tabs-container .polotno-side-panel-tab:hover,
+.bp4-dark .polotno-side-tabs-container .polotno-side-panel-tab.active {
+  background-color: #c8c52d;
+  color: white;
+}
+
+/* change hover style of all buttons */
+.bp4-dark .bp4-button:not([class*='bp4-intent-']):hover {
+  background-color: #c8c52d;
+}
