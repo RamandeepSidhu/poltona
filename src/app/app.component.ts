@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { render } from 'react-dom';
 import React from 'react';
-import { PolotnoContainer, SidePanelWrap, WorkspaceWrap } from 'polotno';
 
 import { Workspace } from 'polotno/canvas/workspace';
 import { SidePanel } from 'polotno/side-panel';
 import { Toolbar } from 'polotno/toolbar/toolbar';
 import { ZoomButtons } from 'polotno/toolbar/zoom-buttons';
 import { createStore } from 'polotno/model/store';
+ import { PolotnoContainer, SidePanelWrap, WorkspaceWrap } from 'polotno';
 
 @Component({
   selector: 'app-root',
@@ -15,20 +15,9 @@ import { createStore } from 'polotno/model/store';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  // private player: videojs.Player;
-
- 
   ngOnInit() {
-    // this.player = videojs('video-player', {
-    //   controls: true,
-    //   fluid: true,
-    //   plugins: {
-    //     // Add any necessary plugins for video editing
-    //   }
-    // });
-    // this.player.src('/path/to/your/video.mp4');
     const store = createStore({
-      key: 'r1WuPey1JuY1yl_L4Vyb',
+      key: 'nFA5H9elEytDyPyvKL7T',
       showCredit: true,
     });
 
@@ -48,15 +37,8 @@ export class AppComponent implements OnInit {
       document.getElementById('polotno-root')
     );
   }
-  // trimVideo() {
-  //   // Implement video trimming functionality using the videojs API
-  //   // Example: Get start and end time, and create a trimmed clip
-  //   const startTime = 10; // Start time in seconds
-  //   const endTime = 30; // End time in seconds
-  //   const trimmedClip = this.player.currentTime(startTime).cut(endTime);
 
-  //   // Perform any additional editing operations as needed
 
-  //   // Save the edited video or perform further actions
-  // }
 }
+
+
